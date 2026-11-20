@@ -1,11 +1,12 @@
+import sys
 # Accept number of scores
-n = int(input("Enter number of scores: "))
+n = int(sys.argv[1])
 
 scores = []
 
 # Accept scores
 for i in range(n):
-    score = float(input("Enter score: "))
+    score = float(sys.argv[2])
     scores.append(score)
 
 # Calculate sum
